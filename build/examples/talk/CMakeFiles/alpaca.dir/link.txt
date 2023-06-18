@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG CMakeFiles/alpaca.dir/application/alpaca/alpaca.cpp.o -o ../../bin/alpaca  libInferLLM.a 

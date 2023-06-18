@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -shared -Wl,-soname,libwhisper.so -o libwhisper.so CMakeFiles/whisper.dir/ggml.c.o CMakeFiles/whisper.dir/whisper.cpp.o  -Wl,-rpath,:::::::::::::: -lm -ldl 

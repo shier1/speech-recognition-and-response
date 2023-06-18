@@ -1,0 +1,192 @@
+[
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SHARED -DWHISPER_BUILD -DWHISPER_SHARED -Dwhisper_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wshadow                                    -Wcast-qual                                 -Wstrict-prototypes                         -Wpointer-arith                             -Wno-unused-function                     -Werror=vla -mavx -mavx2 -mfma -mf16c -O3 -DNDEBUG -fPIC -o CMakeFiles/whisper.dir/ggml.c.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/ggml.c",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/ggml.c"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SHARED -DWHISPER_BUILD -DWHISPER_SHARED -Dwhisper_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/whisper.dir/whisper.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/whisper.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/whisper.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples",
+  "command": "/usr/bin/c++  -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -isystem /usr/include/SDL2              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/common-sdl.dir/common-sdl.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/common-sdl.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/common-sdl.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples",
+  "command": "/usr/bin/c++ -DGGML_SHARED -DWHISPER_SHARED -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/common.dir/common.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/common.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/common.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples",
+  "command": "/usr/bin/c++ -DGGML_SHARED -DWHISPER_SHARED -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/common.dir/common-ggml.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/common-ggml.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/common-ggml.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/main",
+  "command": "/usr/bin/c++ -DGGML_SHARED -DWHISPER_SHARED -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/main.dir/main.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/main/main.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/main/main.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/device.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/device.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/device.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/graph.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/graph.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/graph.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/kvstotage.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/kvstotage.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/kvstotage.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/model.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/model_imp.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model_imp.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model_imp.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/op.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/op.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/op.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/tensor.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/tensor.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/tensor.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/core/thread_pool.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/thread_pool.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/thread_pool.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/file.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/file.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/file.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/graph/chatGLM.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/chatGLM.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/chatGLM.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/graph/graph_imp.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/graph_imp.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/graph_imp.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/graph/llama.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/llama.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/llama.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/kern/naive/naive.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/naive/naive.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/naive/naive.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/kern/optimized/kernel_opt.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/optimized/kernel_opt.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/optimized/kernel_opt.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/InferLLM.dir/src/utils.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/utils.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/utils.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DGGML_SHARED -DINFER_X86=1 -DWHISPER_SHARED -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/usr/include/SDL2 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/. -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/robot.dir/talk.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/talk.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/talk.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/device.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/device.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/device.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/graph.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/graph.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/graph.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/kvstotage.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/kvstotage.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/kvstotage.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/model.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/model_imp.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model_imp.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/model_imp.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/op.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/op.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/op.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/tensor.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/tensor.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/tensor.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/core/thread_pool.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/thread_pool.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/core/thread_pool.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/file.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/file.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/file.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/graph/chatGLM.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/chatGLM.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/chatGLM.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/graph/graph_imp.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/graph_imp.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/graph_imp.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/graph/llama.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/llama.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/graph/llama.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/kern/naive/naive.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/naive/naive.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/naive/naive.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/kern/optimized/kernel_opt.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/optimized/kernel_opt.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/kern/optimized/kernel_opt.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/talk",
+  "command": "/usr/bin/c++ -DINFER_X86=1 -DInferLLMShared_EXPORTS -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/include -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src  -O3 -g  -std=c++11 -pthread -Wno-multichar  -march=native              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -fPIC -o CMakeFiles/InferLLMShared.dir/src/utils.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/utils.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/talk/src/utils.cpp"
+},
+{
+  "directory": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/build/examples/command",
+  "command": "/usr/bin/c++ -DGGML_SHARED -DWHISPER_SHARED -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples -I/usr/include/SDL2 -I/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/.              -Wall                                       -Wextra                                     -Wpedantic                                  -Wcast-qual                              -O3 -DNDEBUG -o CMakeFiles/command.dir/command.cpp.o -c /home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/command/command.cpp",
+  "file": "/home/shier/curriculum_design/speech_singal_processing/design/speech_recognize/examples/command/command.cpp"
+}
+]
